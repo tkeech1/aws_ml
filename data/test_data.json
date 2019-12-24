@@ -1,0 +1,901 @@
+{
+    "ticker_symbol": "TBV",
+    "sector": "HEALTHCARE",
+    "change": 6.44,
+    "price": 116.67
+}{
+    "ticker_symbol": "QWE",
+    "sector": "TECHNOLOGY",
+    "change": -3.16,
+    "price": 204.74
+}{
+    "ticker_symbol": "VVY",
+    "sector": "HEALTHCARE",
+    "change": 1.27,
+    "price": 23.49
+}{
+    "ticker_symbol": "UHN",
+    "sector": "FINANCIAL",
+    "change": -14.17,
+    "price": 747.08
+}{
+    "ticker_symbol": "WAS",
+    "sector": "RETAIL",
+    "change": -0.21,
+    "price": 14.31
+}{
+    "ticker_symbol": "DFT",
+    "sector": "RETAIL",
+    "change": 1.24,
+    "price": 76.24
+}{
+    "ticker_symbol": "TGH",
+    "sector": "FINANCIAL",
+    "change": -0.33,
+    "price": 59.99
+}{
+    "ticker_symbol": "AAPL",
+    "sector": "TECHNOLOGY",
+    "change": -1.13,
+    "price": 94.42
+}{
+    "ticker_symbol": "BNM",
+    "sector": "TECHNOLOGY",
+    "change": -0.59,
+    "price": 201.08
+}{
+    "ticker_symbol": "XTC",
+    "sector": "HEALTHCARE",
+    "change": -1.4,
+    "price": 162.05
+}{
+    "ticker_symbol": "ASD",
+    "sector": "FINANCIAL",
+    "change": 0.42,
+    "price": 51.56
+}{
+    "ticker_symbol": "JKL",
+    "sector": "TECHNOLOGY",
+    "change": -0.28,
+    "price": 15.61
+}{
+    "ticker_symbol": "NFLX",
+    "sector": "TECHNOLOGY",
+    "change": 1.67,
+    "price": 109.47
+}{
+    "ticker_symbol": "WAS",
+    "sector": "RETAIL",
+    "change": -0.02,
+    "price": 14.29
+}{
+    "ticker_symbol": "AZL",
+    "sector": "HEALTHCARE",
+    "change": 0.56,
+    "price": 15.68
+}{
+    "ticker_symbol": "QXZ",
+    "sector": "FINANCIAL",
+    "change": 4.57,
+    "price": 170.25
+}{
+    "ticker_symbol": "ASD",
+    "sector": "FINANCIAL",
+    "change": -0.56,
+    "price": 51
+}{
+    "ticker_symbol": "PJN",
+    "sector": "RETAIL",
+    "change": 0.02,
+    "price": 24.12
+}{
+    "ticker_symbol": "QXZ",
+    "sector": "FINANCIAL",
+    "change": 1.22,
+    "price": 171.47
+}{
+    "ticker_symbol": "MMB",
+    "sector": "ENERGY",
+    "change": -0.39,
+    "price": 16.72
+}{
+    "ticker_symbol": "QXZ",
+    "sector": "FINANCIAL",
+    "change": -2.68,
+    "price": 168.79
+}{
+    "ticker_symbol": "AAPL",
+    "sector": "TECHNOLOGY",
+    "change": -0.49,
+    "price": 93.93
+}{
+    "ticker_symbol": "QXZ",
+    "sector": "FINANCIAL",
+    "change": 0.68,
+    "price": 169.47
+}{
+    "ticker_symbol": "IOP",
+    "sector": "TECHNOLOGY",
+    "change": 1.7,
+    "price": 111.78
+}{
+    "ticker_symbol": "IOP",
+    "sector": "TECHNOLOGY",
+    "change": 1.79,
+    "price": 113.57
+}{
+    "ticker_symbol": "VVS",
+    "sector": "ENERGY",
+    "change": 0.48,
+    "price": 13.12
+}{
+    "ticker_symbol": "MJN",
+    "sector": "RETAIL",
+    "change": -1,
+    "price": 191.75
+}{
+    "ticker_symbol": "TBV",
+    "sector": "HEALTHCARE",
+    "change": 6.92,
+    "price": 123.59
+}{
+    "ticker_symbol": "DFG",
+    "sector": "TECHNOLOGY",
+    "change": -2.29,
+    "price": 117.61
+}{
+    "ticker_symbol": "SED",
+    "sector": "HEALTHCARE",
+    "change": 0.03,
+    "price": 1.28
+}{
+    "ticker_symbol": "WSB",
+    "sector": "FINANCIAL",
+    "change": 2.44,
+    "price": 104.35
+}{
+    "ticker_symbol": "JYB",
+    "sector": "HEALTHCARE",
+    "change": 1.85,
+    "price": 46.26
+}{
+    "ticker_symbol": "RFV",
+    "sector": "FINANCIAL",
+    "change": -0.77,
+    "price": 43.63
+}{
+    "ticker_symbol": "SAC",
+    "sector": "ENERGY",
+    "change": -1.53,
+    "price": 40.31
+}{
+    "ticker_symbol": "PJN",
+    "sector": "RETAIL",
+    "change": -0.87,
+    "price": 23.25
+}{
+    "ticker_symbol": "QWE",
+    "sector": "TECHNOLOGY",
+    "change": 3.27,
+    "price": 208.01
+}{
+    "ticker_symbol": "JYB",
+    "sector": "HEALTHCARE",
+    "change": -1.23,
+    "price": 45.03
+}{
+    "ticker_symbol": "CRM",
+    "sector": "HEALTHCARE",
+    "change": 0.22,
+    "price": 23.89
+}{
+    "ticker_symbol": "KIN",
+    "sector": "ENERGY",
+    "change": -0.03,
+    "price": 1.91
+}{
+    "ticker_symbol": "SED",
+    "sector": "HEALTHCARE",
+    "change": -0.04,
+    "price": 1.24
+}{
+    "ticker_symbol": "CVB",
+    "sector": "TECHNOLOGY",
+    "change": -0.37,
+    "price": 47.63
+}{
+    "ticker_symbol": "NFLX",
+    "sector": "TECHNOLOGY",
+    "change": 0.2,
+    "price": 109.67
+}{
+    "ticker_symbol": "WMT",
+    "sector": "RETAIL",
+    "change": -4.83,
+    "price": 112.44
+}{
+    "ticker_symbol": "DFT",
+    "sector": "RETAIL",
+    "change": 2.12,
+    "price": 78.36
+}{
+    "ticker_symbol": "NFS",
+    "sector": "ENERGY",
+    "change": 4.58,
+    "price": 74.53
+}{
+    "ticker_symbol": "WSB",
+    "sector": "RETAIL",
+    "change": -0.2,
+    "price": 5.77
+}{
+    "ticker_symbol": "VVS",
+    "sector": "ENERGY",
+    "change": -0.75,
+    "price": 12.37
+}{
+    "ticker_symbol": "CRM",
+    "sector": "HEALTHCARE",
+    "change": -0.47,
+    "price": 23.42
+}{
+    "ticker_symbol": "QAZ",
+    "sector": "FINANCIAL",
+    "change": -5.14,
+    "price": 186.68
+}{
+    "ticker_symbol": "CVB",
+    "sector": "TECHNOLOGY",
+    "change": -0.69,
+    "price": 46.94
+}{
+    "ticker_symbol": "BNM",
+    "sector": "TECHNOLOGY",
+    "change": -1.18,
+    "price": 199.9
+}{
+    "ticker_symbol": "VVY",
+    "sector": "HEALTHCARE",
+    "change": -1.45,
+    "price": 22.04
+}{
+    "ticker_symbol": "IOP",
+    "sector": "TECHNOLOGY",
+    "change": -1.56,
+    "price": 112.01
+}{
+    "ticker_symbol": "DFG",
+    "sector": "TECHNOLOGY",
+    "change": 0.6,
+    "price": 118.21
+}{
+    "ticker_symbol": "NFS",
+    "sector": "ENERGY",
+    "change": 4.65,
+    "price": 79.18
+}{
+    "ticker_symbol": "PLM",
+    "sector": "FINANCIAL",
+    "change": -0.27,
+    "price": 16.51
+}{
+    "ticker_symbol": "ASD",
+    "sector": "FINANCIAL",
+    "change": 1.49,
+    "price": 52.49
+}{
+    "ticker_symbol": "CVB",
+    "sector": "TECHNOLOGY",
+    "change": 0.45,
+    "price": 47.39
+}{
+    "ticker_symbol": "WSB",
+    "sector": "FINANCIAL",
+    "change": 1.04,
+    "price": 105.39
+}{
+    "ticker_symbol": "AMZN",
+    "sector": "TECHNOLOGY",
+    "change": 0.35,
+    "price": 691.56
+}{
+    "ticker_symbol": "SAC",
+    "sector": "ENERGY",
+    "change": -0.15,
+    "price": 40.16
+}{
+    "ticker_symbol": "IOP",
+    "sector": "TECHNOLOGY",
+    "change": -1.24,
+    "price": 110.77
+}{
+    "ticker_symbol": "BFH",
+    "sector": "RETAIL",
+    "change": 0.58,
+    "price": 14.67
+}{
+    "ticker_symbol": "QXZ",
+    "sector": "RETAIL",
+    "change": -0.15,
+    "price": 19.57
+}{
+    "ticker_symbol": "KFU",
+    "sector": "ENERGY",
+    "change": 0.49,
+    "price": 9.05
+}{
+    "ticker_symbol": "KFU",
+    "sector": "ENERGY",
+    "change": 0.7,
+    "price": 9.75
+}{
+    "ticker_symbol": "AMZN",
+    "sector": "TECHNOLOGY",
+    "change": -8.57,
+    "price": 682.99
+}{
+    "ticker_symbol": "DEG",
+    "sector": "ENERGY",
+    "change": 0.27,
+    "price": 3.62
+}{
+    "ticker_symbol": "MMB",
+    "sector": "ENERGY",
+    "change": 1.58,
+    "price": 18.3
+}{
+    "ticker_symbol": "QXZ",
+    "sector": "HEALTHCARE",
+    "change": -3.66,
+    "price": 89.27
+}{
+    "ticker_symbol": "KIN",
+    "sector": "ENERGY",
+    "change": -0.01,
+    "price": 1.9
+}{
+    "ticker_symbol": "PPL",
+    "sector": "HEALTHCARE",
+    "change": -1.12,
+    "price": 36.52
+}{
+    "ticker_symbol": "BFH",
+    "sector": "RETAIL",
+    "change": -0.62,
+    "price": 14.05
+}{
+    "ticker_symbol": "TGT",
+    "sector": "RETAIL",
+    "change": -0.19,
+    "price": 85.85
+}{
+    "ticker_symbol": "WSB",
+    "sector": "RETAIL",
+    "change": -0.25,
+    "price": 5.52
+}{
+    "ticker_symbol": "QXZ",
+    "sector": "RETAIL",
+    "change": -0.56,
+    "price": 19.01
+}{
+    "ticker_symbol": "QXZ",
+    "sector": "RETAIL",
+    "change": 0.55,
+    "price": 19.56
+}{
+    "ticker_symbol": "WAS",
+    "sector": "RETAIL",
+    "change": -0.51,
+    "price": 13.78
+}{
+    "ticker_symbol": "AZL",
+    "sector": "HEALTHCARE",
+    "change": 0.58,
+    "price": 16.26
+}{
+    "ticker_symbol": "CVB",
+    "sector": "TECHNOLOGY",
+    "change": -0.11,
+    "price": 47.28
+}{
+    "ticker_symbol": "BAC",
+    "sector": "FINANCIAL",
+    "change": 0.18,
+    "price": 14.14
+}{
+    "ticker_symbol": "TGT",
+    "sector": "RETAIL",
+    "change": 1.24,
+    "price": 87.09
+}{
+    "ticker_symbol": "TBV",
+    "sector": "HEALTHCARE",
+    "change": -0.62,
+    "price": 122.97
+}{
+    "ticker_symbol": "AZL",
+    "sector": "HEALTHCARE",
+    "change": -0.53,
+    "price": 15.73
+}{
+    "ticker_symbol": "AAPL",
+    "sector": "TECHNOLOGY",
+    "change": -1.56,
+    "price": 92.37
+}{
+    "ticker_symbol": "XTC",
+    "sector": "HEALTHCARE",
+    "change": -2.41,
+    "price": 159.64
+}{
+    "ticker_symbol": "HJK",
+    "sector": "TECHNOLOGY",
+    "change": 0.02,
+    "price": 4.71
+}{
+    "ticker_symbol": "SAC",
+    "sector": "ENERGY",
+    "change": -2.38,
+    "price": 37.78
+}{
+    "ticker_symbol": "WSB",
+    "sector": "FINANCIAL",
+    "change": 1.45,
+    "price": 106.84
+}{
+    "ticker_symbol": "TBV",
+    "sector": "HEALTHCARE",
+    "change": -3.01,
+    "price": 119.96
+}{
+    "ticker_symbol": "QXZ",
+    "sector": "HEALTHCARE",
+    "change": -4.03,
+    "price": 85.24
+}{
+    "ticker_symbol": "WSB",
+    "sector": "FINANCIAL",
+    "change": -2.86,
+    "price": 103.98
+}{
+    "ticker_symbol": "VVS",
+    "sector": "ENERGY",
+    "change": -0.1,
+    "price": 12.27
+}{
+    "ticker_symbol": "ABC",
+    "sector": "RETAIL",
+    "change": -0.31,
+    "price": 20.13
+}{
+    "ticker_symbol": "NFS",
+    "sector": "ENERGY",
+    "change": 0.84,
+    "price": 80.02
+}{
+    "ticker_symbol": "WFC",
+    "sector": "FINANCIAL",
+    "change": 1.45,
+    "price": 56.25
+}{
+    "ticker_symbol": "PJN",
+    "sector": "RETAIL",
+    "change": -1.14,
+    "price": 22.11
+}{
+    "ticker_symbol": "QXZ",
+    "sector": "HEALTHCARE",
+    "change": -4.27,
+    "price": 80.97
+}{
+    "ticker_symbol": "RFV",
+    "sector": "FINANCIAL",
+    "change": -0.24,
+    "price": 43.39
+}{
+    "ticker_symbol": "PJN",
+    "sector": "RETAIL",
+    "change": -1.07,
+    "price": 21.04
+}{
+    "ticker_symbol": "QAZ",
+    "sector": "FINANCIAL",
+    "change": -2.4,
+    "price": 184.28
+}{
+    "ticker_symbol": "HJK",
+    "sector": "TECHNOLOGY",
+    "change": -0.04,
+    "price": 4.67
+}{
+    "ticker_symbol": "QXZ",
+    "sector": "HEALTHCARE",
+    "change": -4.67,
+    "price": 76.3
+}{
+    "ticker_symbol": "QXZ",
+    "sector": "FINANCIAL",
+    "change": 2.46,
+    "price": 171.93
+}{
+    "ticker_symbol": "CRM",
+    "sector": "HEALTHCARE",
+    "change": -1.22,
+    "price": 22.2
+}{
+    "ticker_symbol": "DFG",
+    "sector": "TECHNOLOGY",
+    "change": -2.09,
+    "price": 116.12
+}{
+    "ticker_symbol": "PPL",
+    "sector": "HEALTHCARE",
+    "change": -1.61,
+    "price": 34.91
+}{
+    "ticker_symbol": "RFV",
+    "sector": "FINANCIAL",
+    "change": -1.11,
+    "price": 42.28
+}{
+    "ticker_symbol": "SED",
+    "sector": "HEALTHCARE",
+    "change": -0.05,
+    "price": 1.19
+}{
+    "ticker_symbol": "UHN",
+    "sector": "FINANCIAL",
+    "change": -3.72,
+    "price": 743.36
+}{
+    "ticker_symbol": "RFV",
+    "sector": "FINANCIAL",
+    "change": 0.96,
+    "price": 43.24
+}{
+    "ticker_symbol": "AZL",
+    "sector": "HEALTHCARE",
+    "change": 0.09,
+    "price": 15.82
+}{
+    "ticker_symbol": "NFS",
+    "sector": "ENERGY",
+    "change": 5.59,
+    "price": 85.61
+}{
+    "ticker_symbol": "PPL",
+    "sector": "HEALTHCARE",
+    "change": -0.27,
+    "price": 34.64
+}{
+    "ticker_symbol": "ALY",
+    "sector": "ENERGY",
+    "change": 0.38,
+    "price": 31.58
+}{
+    "ticker_symbol": "QXZ",
+    "sector": "RETAIL",
+    "change": 0.05,
+    "price": 19.61
+}{
+    "ticker_symbol": "MJN",
+    "sector": "RETAIL",
+    "change": -7.87,
+    "price": 183.88
+}{
+    "ticker_symbol": "VVS",
+    "sector": "ENERGY",
+    "change": -0.49,
+    "price": 11.78
+}{
+    "ticker_symbol": "CRM",
+    "sector": "HEALTHCARE",
+    "change": -1.19,
+    "price": 21.01
+}{
+    "ticker_symbol": "AMZN",
+    "sector": "TECHNOLOGY",
+    "change": 12.51,
+    "price": 695.5
+}{
+    "ticker_symbol": "TGT",
+    "sector": "RETAIL",
+    "change": -2.95,
+    "price": 84.14
+}{
+    "ticker_symbol": "MJN",
+    "sector": "RETAIL",
+    "change": 6.34,
+    "price": 190.22
+}{
+    "ticker_symbol": "VVY",
+    "sector": "HEALTHCARE",
+    "change": 0.67,
+    "price": 22.71
+}{
+    "ticker_symbol": "VVS",
+    "sector": "ENERGY",
+    "change": -0.62,
+    "price": 11.16
+}{
+    "ticker_symbol": "PLM",
+    "sector": "FINANCIAL",
+    "change": -0.46,
+    "price": 16.05
+}{
+    "ticker_symbol": "WFC",
+    "sector": "FINANCIAL",
+    "change": -1.15,
+    "price": 55.1
+}{
+    "ticker_symbol": "PJN",
+    "sector": "RETAIL",
+    "change": -0.42,
+    "price": 20.62
+}{
+    "ticker_symbol": "DFT",
+    "sector": "RETAIL",
+    "change": 2.68,
+    "price": 81.04
+}{
+    "ticker_symbol": "SLW",
+    "sector": "ENERGY",
+    "change": -3.13,
+    "price": 29.52
+}{
+    "ticker_symbol": "JKL",
+    "sector": "TECHNOLOGY",
+    "change": 0.27,
+    "price": 15.88
+}{
+    "ticker_symbol": "SED",
+    "sector": "HEALTHCARE",
+    "change": 0.01,
+    "price": 1.2
+}{
+    "ticker_symbol": "DFT",
+    "sector": "RETAIL",
+    "change": -4.03,
+    "price": 77.01
+}{
+    "ticker_symbol": "KIN",
+    "sector": "ENERGY",
+    "change": 0.14,
+    "price": 2.04
+}{
+    "ticker_symbol": "DFG",
+    "sector": "TECHNOLOGY",
+    "change": -0.35,
+    "price": 115.77
+}{
+    "ticker_symbol": "SLW",
+    "sector": "ENERGY",
+    "change": 0.47,
+    "price": 29.99
+}{
+    "ticker_symbol": "WAS",
+    "sector": "RETAIL",
+    "change": 0.25,
+    "price": 14.03
+}{
+    "ticker_symbol": "BAC",
+    "sector": "FINANCIAL",
+    "change": 0.21,
+    "price": 14.35
+}{
+    "ticker_symbol": "JYB",
+    "sector": "HEALTHCARE",
+    "change": 1.39,
+    "price": 46.42
+}{
+    "ticker_symbol": "AAPL",
+    "sector": "TECHNOLOGY",
+    "change": -0.52,
+    "price": 91.85
+}{
+    "ticker_symbol": "HJV",
+    "sector": "ENERGY",
+    "change": -5.09,
+    "price": 123.79
+}{
+    "ticker_symbol": "TGT",
+    "sector": "RETAIL",
+    "change": 1.12,
+    "price": 85.26
+}{
+    "ticker_symbol": "JYB",
+    "sector": "HEALTHCARE",
+    "change": -1.29,
+    "price": 45.13
+}{
+    "ticker_symbol": "BFH",
+    "sector": "RETAIL",
+    "change": -0.3,
+    "price": 13.75
+}{
+    "ticker_symbol": "SLW",
+    "sector": "ENERGY",
+    "change": -2.45,
+    "price": 27.54
+}{
+    "ticker_symbol": "BFH",
+    "sector": "RETAIL",
+    "change": -0.36,
+    "price": 13.39
+}{
+    "ticker_symbol": "QWE",
+    "sector": "TECHNOLOGY",
+    "change": 0.28,
+    "price": 208.29
+}{
+    "ticker_symbol": "WFC",
+    "sector": "FINANCIAL",
+    "change": -0.15,
+    "price": 54.95
+}{
+    "ticker_symbol": "NFS",
+    "sector": "ENERGY",
+    "change": 2.38,
+    "price": 87.99
+}{
+    "ticker_symbol": "QXZ",
+    "sector": "HEALTHCARE",
+    "change": -1.23,
+    "price": 75.07
+}{
+    "ticker_symbol": "AMZN",
+    "sector": "TECHNOLOGY",
+    "change": -11.32,
+    "price": 684.18
+}{
+    "ticker_symbol": "NFLX",
+    "sector": "TECHNOLOGY",
+    "change": -1.48,
+    "price": 108.19
+}{
+    "ticker_symbol": "BAC",
+    "sector": "FINANCIAL",
+    "change": 0.1,
+    "price": 14.45
+}{
+    "ticker_symbol": "JKL",
+    "sector": "TECHNOLOGY",
+    "change": -0.2,
+    "price": 15.68
+}{
+    "ticker_symbol": "SLW",
+    "sector": "ENERGY",
+    "change": -1.41,
+    "price": 26.13
+}{
+    "ticker_symbol": "QXZ",
+    "sector": "FINANCIAL",
+    "change": -0.5,
+    "price": 171.43
+}{
+    "ticker_symbol": "QWE",
+    "sector": "TECHNOLOGY",
+    "change": -0.34,
+    "price": 207.95
+}{
+    "ticker_symbol": "CVB",
+    "sector": "TECHNOLOGY",
+    "change": -0.66,
+    "price": 46.62
+}{
+    "ticker_symbol": "QAZ",
+    "sector": "FINANCIAL",
+    "change": 1.15,
+    "price": 185.43
+}{
+    "ticker_symbol": "HJV",
+    "sector": "ENERGY",
+    "change": 4.34,
+    "price": 128.13
+}{
+    "ticker_symbol": "AZL",
+    "sector": "HEALTHCARE",
+    "change": -1.1,
+    "price": 14.72
+}{
+    "ticker_symbol": "VVY",
+    "sector": "HEALTHCARE",
+    "change": -0.39,
+    "price": 22.32
+}{
+    "ticker_symbol": "QXZ",
+    "sector": "FINANCIAL",
+    "change": 1.43,
+    "price": 172.86
+}{
+    "ticker_symbol": "WMT",
+    "sector": "RETAIL",
+    "change": 5.29,
+    "price": 117.73
+}{
+    "ticker_symbol": "RFV",
+    "sector": "FINANCIAL",
+    "change": 0.53,
+    "price": 43.77
+}{
+    "ticker_symbol": "XTC",
+    "sector": "HEALTHCARE",
+    "change": 8.32,
+    "price": 167.96
+}{
+    "ticker_symbol": "QAZ",
+    "sector": "FINANCIAL",
+    "change": -2.66,
+    "price": 182.77
+}{
+    "ticker_symbol": "PJN",
+    "sector": "RETAIL",
+    "change": 0.86,
+    "price": 21.48
+}{
+    "ticker_symbol": "VVS",
+    "sector": "ENERGY",
+    "change": -0.36,
+    "price": 10.8
+}{
+    "ticker_symbol": "QXZ",
+    "sector": "HEALTHCARE",
+    "change": 3.72,
+    "price": 78.79
+}{
+    "ticker_symbol": "NFS",
+    "sector": "ENERGY",
+    "change": 2.26,
+    "price": 90.25
+}{
+    "ticker_symbol": "DFG",
+    "sector": "TECHNOLOGY",
+    "change": 2.24,
+    "price": 118.01
+}{
+    "ticker_symbol": "JKL",
+    "sector": "TECHNOLOGY",
+    "change": 0.3,
+    "price": 15.98
+}{
+    "ticker_symbol": "BAC",
+    "sector": "FINANCIAL",
+    "change": -0.25,
+    "price": 14.2
+}{
+    "ticker_symbol": "MMB",
+    "sector": "ENERGY",
+    "change": 0.06,
+    "price": 18.36
+}{
+    "ticker_symbol": "AMZN",
+    "sector": "TECHNOLOGY",
+    "change": 7.5,
+    "price": 691.68
+}{
+    "ticker_symbol": "QXZ",
+    "sector": "RETAIL",
+    "change": -0.33,
+    "price": 19.28
+}{
+    "ticker_symbol": "DFT",
+    "sector": "RETAIL",
+    "change": -0.15,
+    "price": 76.86
+}{
+    "ticker_symbol": "WAS",
+    "sector": "RETAIL",
+    "change": 0.38,
+    "price": 14.41
+}{
+    "ticker_symbol": "QXZ",
+    "sector": "FINANCIAL",
+    "change": -4.24,
+    "price": 168.62
+}{
+    "ticker_symbol": "WAS",
+    "sector": "RETAIL",
+    "change": 0.39,
+    "price": 14.8
+}
