@@ -67,5 +67,18 @@ variable "glue_table_name" {
 variable "glue_crawler_name" {
   type = string
 }
+variable "sagemaker_notebook_instance_name" {
+  type = string
+}
+variable "sagemaker_data_bucket_name" {
+  type = string
+}
+variable "sagemaker_model_bucket_name" {
+  type = string
+}
+variable "sagemaker_notebook_instance_type" {
+  type = string
+}
+
 
 data "aws_caller_identity" "current" {}

@@ -12,7 +12,38 @@ terraform {
   }
 }
 
-module "s3_firehose_dest" {
+/* Start Sagemaker Setup */
+
+module "s3_sagemaker_data_bucket" {
+  source      = "./modules/s3"
+  region      = var.region
+  environment = var.environment
+  bucket_name = var.sagemaker_data_bucket_name
+  private     = "private"
+}
+
+module "s3_sagemaker_model_bucket" {
+  source      = "./modules/s3"
+  region      = var.region
+  environment = var.environment
+  bucket_name = var.sagemaker_model_bucket_name
+  private     = "private"
+}
+
+module "sagemaker" {
+  source      = "./modules/sagemaker"
+  region      = var.region
+  environment = var.environment
+  sagemaker_notebook_instance_type = var.sagemaker_notebook_instance_type
+  data_bucket_name = var.sagemaker_data_bucket_name
+  model_bucket_name = var.sagemaker_model_bucket_name
+  sagemaker_notebook_instance_name = var.sagemaker_notebook_instance_name
+}
+
+/* End SageMaker Setup */
+
+/* Start Firehose Setup */
+/*module "s3_firehose_dest" {
   source      = "./modules/s3"
   region      = var.region
   environment = var.environment
@@ -42,10 +73,12 @@ module "glue" {
   glue_catalog_name = var.glue_catalog_name
   glue_table_name   = var.glue_table_name
   glue_crawler_name = var.glue_crawler_name
-}
+}*/
 
-/*
-module "kinesisanalytics" {
+/* End firehose Setup */
+
+/* Start Kinesis Analytics Setup */
+/*module "kinesisanalytics" {
   source                             = "./modules/kinesisanalytics"
   region                             = var.region
   environment                        = var.environment
@@ -76,8 +109,8 @@ module "firehose_analytics" {
   firehose_bucket_error_output_prefix = var.analytics_bucket_error_output_prefix
   firehose_cloudwatch_group_name      = var.analytics_cloudwatch_group_name
   firehose_cloudwatch_stream_name     = var.analytics_cloudwatch_stream_name
-}
-*/
+}*/
+/* End Kinesis Analytics Setup */
 
 /*
 // remote_state allows you to retrieve information about objects previously created in AWS
