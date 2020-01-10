@@ -31,12 +31,12 @@ module "s3_sagemaker_model_bucket" {
 }
 
 module "sagemaker" {
-  source      = "./modules/sagemaker"
-  region      = var.region
-  environment = var.environment
+  source                           = "./modules/sagemaker"
+  region                           = var.region
+  environment                      = var.environment
   sagemaker_notebook_instance_type = var.sagemaker_notebook_instance_type
-  data_bucket_name = var.sagemaker_data_bucket_name
-  model_bucket_name = var.sagemaker_model_bucket_name
+  data_bucket_name                 = var.sagemaker_data_bucket_name
+  model_bucket_name                = var.sagemaker_model_bucket_name
   sagemaker_notebook_instance_name = var.sagemaker_notebook_instance_name
 }
 
