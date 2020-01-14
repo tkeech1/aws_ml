@@ -1,4 +1,4 @@
-FROM python:3.7.4-buster
+FROM tensorflow/tensorflow:2.0.0-py3-jupyter
 
 ARG USERNAME=tk
 # On Linux, replace with your actual UID, GID if not the default 1000
@@ -18,6 +18,12 @@ RUN groupadd --gid $USER_GID $USERNAME \
 RUN curl -L https://releases.hashicorp.com/terraform/0.12.12/terraform_0.12.12_linux_amd64.zip -o /tmp/tf.zip; unzip /tmp/tf.zip -d /usr/local/bin/; rm /tmp/tf.zip
 RUN apt update && apt install zip -y && rm -rf /var/lib/apt/lists/*
 
+# node is required for installing jupyterlab extensions
+RUN curl -sL https://deb.nodesource.com/setup_12.x | bash -
+RUN apt-get update && apt-get install -y nodejs && rm -rf /var/lib/apt/lists/*
+
 # change the username
 USER $USERNAME
-RUN pip install awscli pylint autopep8 boto3 --upgrade --user
+RUN pip install seaborn scikit-learn awscli pylint autopep8 boto3 pandas quandl numpy pandas_datareader sagemaker voila textblob plotly_express jupyterlab --upgrade --user
+
+RUN mkdir ~/.jupyter
