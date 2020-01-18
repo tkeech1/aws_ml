@@ -24,6 +24,6 @@ RUN apt-get update && apt-get install -y nodejs && rm -rf /var/lib/apt/lists/*
 
 # change the username
 USER $USERNAME
-RUN pip install seaborn scikit-learn awscli pylint autopep8 boto3 pandas quandl numpy pandas_datareader sagemaker voila textblob plotly_express jupyterlab --upgrade --user
+RUN pip install keras seaborn mnist scikit-learn awscli pylint autopep8 boto3 pandas quandl numpy pandas_datareader sagemaker voila textblob plotly_express jupyterlab --upgrade --user
 
 RUN mkdir ~/.jupyter
