@@ -20,10 +20,13 @@ RUN apt update && apt install zip -y && rm -rf /var/lib/apt/lists/*
 
 # node is required for installing jupyterlab extensions
 RUN curl -sL https://deb.nodesource.com/setup_12.x | bash -
-RUN apt-get update && apt-get install -y nodejs && rm -rf /var/lib/apt/lists/*
+RUN apt-get update && apt-get install -y nodejs openjdk-8-jdk && rm -rf /var/lib/apt/lists/*
 
 # change the username
 USER $USERNAME
-RUN pip install keras seaborn mnist scikit-learn awscli pylint autopep8 boto3 pandas quandl numpy pandas_datareader sagemaker voila textblob plotly_express jupyterlab --upgrade --user
+RUN pip install h2o keras seaborn mnist scikit-learn awscli pylint autopep8 boto3 pandas quandl numpy pandas_datareader sagemaker voila textblob plotly_express jupyterlab --upgrade --user
+
+ENV JAVA_HOME /usr/lib/jvm/java-8-openjdk-amd64/
+RUN export JAVA_HOME
 
 RUN mkdir ~/.jupyter
