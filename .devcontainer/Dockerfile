@@ -24,7 +24,7 @@ RUN apt-get update && apt-get install -y nodejs openjdk-8-jdk && rm -rf /var/lib
 
 # change the username
 USER $USERNAME
-RUN pip install h2o keras seaborn mnist scikit-learn awscli pylint autopep8 boto3 pandas quandl numpy pandas_datareader sagemaker voila textblob plotly_express jupyterlab --upgrade --user
+RUN pip install featuretools h2o keras seaborn mnist scikit-learn awscli pylint autopep8 boto3 pandas quandl numpy pandas_datareader sagemaker voila textblob plotly_express jupyterlab --upgrade --user
 
 ENV JAVA_HOME /usr/lib/jvm/java-8-openjdk-amd64/
 RUN export JAVA_HOME
