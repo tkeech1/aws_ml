@@ -24,7 +24,6 @@ RUN apt-get update && apt-get install -y nodejs openjdk-8-jdk && rm -rf /var/lib
 
 # change the username
 USER $USERNAME
-RUN pip install dask dask_ml dask[dataframe] featuretools h2o keras seaborn mnist scikit-learn awscli pylint autopep8 boto3 pandas quandl numpy pandas_datareader sagemaker voila textblob plotly_express jupyterlab --upgrade --user
 
 ENV JAVA_HOME /usr/lib/jvm/java-8-openjdk-amd64/
 RUN export JAVA_HOME
@@ -34,5 +33,12 @@ RUN /home/$USERNAME/.local/bin/jupyter-labextension install @jupyter-widgets/jup
 RUN /home/$USERNAME/.local/bin/jupyter-labextension install jupyterlab-plotly@1.5.0 --no-build
 RUN /home/$USERNAME/.local/bin/jupyter-labextension install plotlywidget@1.5.0 --no-build
 RUN /home/$USERNAME/.local/bin/jupyter-lab build
+
+# install python libraries
+RUN pip install dask dask_ml dask[dataframe] featuretools h2o \
+    keras seaborn mnist scikit-learn awscli pylint autopep8 \
+    boto3 pandas quandl numpy pandas_datareader sagemaker \
+    voila textblob plotly_express jupyterlab fbprophet \
+    --upgrade --user
 
 RUN mkdir ~/.jupyter
