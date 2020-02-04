@@ -28,17 +28,17 @@ USER $USERNAME
 ENV JAVA_HOME /usr/lib/jvm/java-8-openjdk-amd64/
 RUN export JAVA_HOME
 
-# install an extension
-RUN /home/$USERNAME/.local/bin/jupyter-labextension install @jupyter-widgets/jupyterlab-manager@1.1 --no-build
-RUN /home/$USERNAME/.local/bin/jupyter-labextension install jupyterlab-plotly@1.5.0 --no-build
-RUN /home/$USERNAME/.local/bin/jupyter-labextension install plotlywidget@1.5.0 --no-build
-RUN /home/$USERNAME/.local/bin/jupyter-lab build
-
 # install python libraries
 RUN pip install dask dask_ml dask[dataframe] featuretools h2o \
     keras seaborn mnist scikit-learn awscli pylint autopep8 \
     boto3 pandas quandl numpy pandas_datareader sagemaker \
     voila textblob plotly_express jupyterlab fbprophet \
     --upgrade --user
+
+# install an extension
+RUN /home/$USERNAME/.local/bin/jupyter-labextension install @jupyter-widgets/jupyterlab-manager@1.1 --no-build
+RUN /home/$USERNAME/.local/bin/jupyter-labextension install jupyterlab-plotly@1.5.0 --no-build
+RUN /home/$USERNAME/.local/bin/jupyter-labextension install plotlywidget@1.5.0 --no-build
+RUN /home/$USERNAME/.local/bin/jupyter-lab build
 
 RUN mkdir ~/.jupyter
