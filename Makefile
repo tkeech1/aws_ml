@@ -34,6 +34,8 @@ produce-to-firehose:
 start-glue-crawler:
 	~/.local/bin/aws glue start-crawler --name ticker_crawler-dev
 
+
+
 start:
 	/home/tk/.local/bin/jupyter-lab --ip=0.0.0.0 &
 	/home/tk/.local/bin/voila &
