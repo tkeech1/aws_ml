@@ -22,6 +22,18 @@ module "s3_sagemaker_data_bucket" {
   private     = "private"
 }
 
+resource "aws_s3_bucket_object" "data_file" {
+  bucket = module.s3_sagemaker_data_bucket.bucket_id
+  key    = "r2_data.csv"
+  source = "data/r2/logon.csv"
+}
+
+resource "aws_s3_bucket_object" "answer_file" {
+  bucket = module.s3_sagemaker_data_bucket.bucket_id
+  key    = "r2_answers.csv"
+  source = "data/answers/r2.csv"
+}
+
 module "s3_sagemaker_model_bucket" {
   source      = "./modules/s3"
   region      = var.region
@@ -30,6 +42,7 @@ module "s3_sagemaker_model_bucket" {
   private     = "private"
 }
 
+/*
 module "sagemaker" {
   source                           = "./modules/sagemaker"
   region                           = var.region
@@ -38,7 +51,7 @@ module "sagemaker" {
   data_bucket_name                 = var.sagemaker_data_bucket_name
   model_bucket_name                = var.sagemaker_model_bucket_name
   sagemaker_notebook_instance_name = var.sagemaker_notebook_instance_name
-}
+}*/
 
 /* End SageMaker Setup */
 
