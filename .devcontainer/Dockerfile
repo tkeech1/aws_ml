@@ -22,6 +22,8 @@ RUN curl -L https://releases.hashicorp.com/terraform/0.12.12/terraform_0.12.12_l
 #RUN curl -sL https://deb.nodesource.com/setup_12.x | bash -
 #RUN apt-get update && apt-get install -y nodejs openjdk-8-jdk && rm -rf /var/lib/apt/lists/*
 
+RUN apt-get update && apt-get install -y docker-compose && rm -rf /var/lib/apt/lists/*
+
 # change the username
 USER $USERNAME
 
@@ -32,7 +34,7 @@ USER $USERNAME
 RUN pip install dask dask_ml dask[dataframe] featuretools h2o \
     keras seaborn mnist scikit-learn awscli pylint autopep8 \
     boto3 pandas quandl numpy pandas_datareader sagemaker \
-    voila textblob plotly_express jupyterlab fbprophet line_profiler memory_profiler \
+    voila textblob plotly_express jupyterlab fbprophet line_profiler memory_profiler sagemaker[local] \
     --upgrade --user
 
 # install an extension
