@@ -23,9 +23,12 @@ RUN curl -L https://releases.hashicorp.com/terraform/0.12.12/terraform_0.12.12_l
 #RUN apt-get update && apt-get install -y nodejs openjdk-8-jdk && rm -rf /var/lib/apt/lists/*
 
 RUN apt-get update && apt-get install -y docker-compose && rm -rf /var/lib/apt/lists/*
+RUN pip uninstall -y enum34
+RUN pip install --upgrade pip
 
 # change the username
 USER $USERNAME
+ENV PATH="${PATH}:/home/${USERNAME}/.local/bin"
 
 #ENV JAVA_HOME /usr/lib/jvm/java-8-openjdk-amd64/
 #RUN export JAVA_HOME
@@ -35,6 +38,7 @@ RUN pip install dask dask_ml dask[dataframe] featuretools h2o \
     keras seaborn mnist scikit-learn awscli pylint autopep8 \
     boto3 pandas quandl numpy pandas_datareader sagemaker \
     voila textblob plotly_express jupyterlab fbprophet line_profiler memory_profiler sagemaker[local] \
+    tableauhyperapi pantab \
     --upgrade --user
 
 # install an extension
