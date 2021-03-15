@@ -110,3 +110,5 @@ terraform.tfstate.backup
 *.zip
 
 data/
+
+code/dask-worker-space

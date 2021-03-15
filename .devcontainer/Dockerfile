@@ -41,6 +41,9 @@ RUN pip install dask dask_ml dask[dataframe] featuretools h2o \
     tableauhyperapi pantab \
     --upgrade --user
 
+RUN pip install modin modin[dask]\
+    --upgrade --user
+
 # install an extension
 #RUN /home/$USERNAME/.local/bin/jupyter-labextension install @jupyter-widgets/jupyterlab-manager@1.1 --no-build
 #RUN /home/$USERNAME/.local/bin/jupyter-labextension install jupyterlab-plotly@1.5.0 --no-build
