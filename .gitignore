@@ -112,3 +112,4 @@ terraform.tfstate.backup
 data/
 
 code/dask-worker-space
+dask-worker-space
