@@ -41,7 +41,7 @@ RUN pip install dask dask_ml dask[dataframe] featuretools h2o \
     tableauhyperapi pantab \
     --upgrade --user
 
-RUN pip install modin modin[dask]\
+RUN pip install modin modin[dask] line_profiler memory_profiler\
     --upgrade --user
 
 # install an extension
